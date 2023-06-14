@@ -71,7 +71,7 @@ const showData = async ()=>{
     console.log(details);
   }
 ```
-![](001)
+![](https://github.com/muhammadnaqeeb/Async-Storage-and-Expo-Secure-Storage/blob/main/Images/001.png)
 But this data is string so, you cannot do details[‘name’], so you have to convert this string back to object by `JSON.parse` method.
 ```
   const showData = async ()=>{
